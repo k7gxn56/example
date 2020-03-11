@@ -25,14 +25,13 @@ import java.lang.reflect.Method;
  */
 public class MetaspaceOOMTest {
 
-    static class OOMTest{
-
-    }
+    static class OOMTest{ }
 
     public static void main(String[] args){
         int i = 0;
 
         try{
+            //Thread.sleep(Integer.MAX_VALUE);
             while (true){
                 i++;
                 Enhancer enhancer = new Enhancer();
