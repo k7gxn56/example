@@ -3,6 +3,8 @@ package hello;
 import org.springframework.beans.BeanWrapper;
 import org.springframework.beans.BeanWrapperImpl;
 import org.springframework.beans.PropertyValue;
+import pojo.Company;
+import pojo.Employee;
 
 public class InstanceCounter {
 
