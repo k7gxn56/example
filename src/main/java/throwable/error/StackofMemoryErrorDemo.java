@@ -1,4 +1,4 @@
-package error;
+package throwable.error;
 
 /**
  * -XX:+PrintGCDetails -Xss1m

@@ -1,4 +1,6 @@
-package hello;
+package juc;
+
+import hello.CountryEnum;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
@@ -23,7 +25,7 @@ public class CyclicBarrierDemo {
                 }catch (BrokenBarrierException e){
                     e.printStackTrace();
                 }
-            },CountryEnum.getCountryName(i)).start();
+            }, CountryEnum.getCountryName(i)).start();
         }
     }
 }

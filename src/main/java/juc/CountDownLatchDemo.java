@@ -1,5 +1,7 @@
-package hello;
+package juc;
 
+
+import hello.CountryEnum;
 
 import java.util.concurrent.CountDownLatch;
 
@@ -23,7 +25,7 @@ public class CountDownLatchDemo {
             new Thread(() -> {
                 System.out.println(Thread.currentThread().getName()+"国被灭...");
                 countDownLatch.countDown();
-            },CountryEnum.getCountryName(i)).start();
+            }, CountryEnum.getCountryName(i)).start();
         }
         countDownLatch.await();
         System.out.println("秦灭六国完成,中国重新统一...");

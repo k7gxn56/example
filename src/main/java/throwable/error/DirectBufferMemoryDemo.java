@@ -1,4 +1,4 @@
-package error;
+package throwable.error;
 
 import java.nio.ByteBuffer;
 

@@ -1,4 +1,4 @@
-package error;
+package throwable.error;
 
 import java.util.concurrent.TimeUnit;
 

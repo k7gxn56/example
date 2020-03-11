@@ -1,7 +1,6 @@
-package error;
+package throwable.error;
 
 import java.util.*;
-import java.util.concurrent.TimeUnit;
 
 /**
  * java.lang.OutofMemoryError:GC overhead limit exceeded
