@@ -28,6 +28,19 @@ public class Application {
     }
 
     public static void main(String[] args){
+        t2();
+    }
+
+    public static void t2(){
+        int i = 1;
+        i = i++;
+        int j = i++;
+        int k = i+ ++i * i++;
+        System.out.println("i = "+i+"\nj="+j+"\nk="+k);
+    }
+
+
+    public static void t1(){
         ApplicationContext context = new AnnotationConfigApplicationContext(Application.class);
         MessagePrinter printer = context.getBean(MessagePrinter.class);
         printer.printMessage();

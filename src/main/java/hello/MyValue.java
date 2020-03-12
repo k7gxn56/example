@@ -1,7 +1,5 @@
 package hello;
 
-import java.util.concurrent.atomic.AtomicInteger;
-
 class Num{
 
     Integer n = 0;
