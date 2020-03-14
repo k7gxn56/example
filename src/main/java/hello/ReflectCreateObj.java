@@ -3,8 +3,11 @@ package hello;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import jdk.nashorn.internal.runtime.linker.Bootstrap;
+import sun.reflect.Reflection;
 
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +23,7 @@ public class ReflectCreateObj {
         try {
             for (int i = 0; i < pois.size(); i++) {
                 JSONObject obj = (JSONObject) pois.get(i);
-                Class<?> clazz = Class.forName("hello.GaoDePoi");
+                Class<?> clazz = Class.forName("hello.GaoDePoi",true, null);
                 Object o = clazz.newInstance();
                 for (Field field : clazz.getDeclaredFields()) {
                     if ("serialVersionUID".equalsIgnoreCase(field.getName())) {
@@ -31,13 +34,13 @@ public class ReflectCreateObj {
                             continue;
                         }
                         //使用setXX方法的形式设置值
-//                        String fieldName = field.getName().substring(0, 1).toUpperCase() + field.getName().substring(1);
-//                        Method method = o.getClass().getMethod("set" + fieldName, field.getType());
-//                        method.invoke(o, obj.get(field.getName()));
+                        String fieldName = field.getName().substring(0, 1).toUpperCase() + field.getName().substring(1);
+                        Method method = o.getClass().getMethod("set" + fieldName, field.getType());
+                        method.invoke(o, obj.get(field.getName()));
                         //将私有属性的的修饰状态进行修改
-                        field.setAccessible(true);
+                        //field.setAccessible(true);
                         //直接把值赋给属性
-                        field.set(o,obj.get(field.getName()));
+                        //field.set(o,obj.get(field.getName()));
                     }catch (Exception e){
                         System.out.println("-----------------------------"+field.getName());
                         e.printStackTrace();

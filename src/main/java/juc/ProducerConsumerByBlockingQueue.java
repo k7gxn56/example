@@ -53,7 +53,7 @@ public class ProducerConsumerByBlockingQueue {
 
         public void setStop(){
             this.flag = false;
-            System.out.println("老板说够了,钱已经赚够了.");
+            System.out.println("老板说够了,钱已经赚够了,去享受生活吧~~.");
         }
     }
 
@@ -62,7 +62,7 @@ public class ProducerConsumerByBlockingQueue {
         String[] arr = {"香蕉","苹果","李子","梨子","脐橙","花生","红枣","葡萄","桑葚","甘蔗"};
         AtomicReference<String[]> atomicReference = new AtomicReference<>();
         atomicReference.set(arr);
-        MyTask myTask = new MyTask(new ArrayBlockingQueue<String>(5),atomicReference);
+        MyTask myTask = new MyTask(new ArrayBlockingQueue<>(5),atomicReference);
 
         new Thread(() -> {
             try{

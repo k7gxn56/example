@@ -49,6 +49,18 @@ public class GaoDePoi implements Serializable {
 
     private List photos;
 
+    public GaoDePoi(){
+        System.out.println("GaoDePoi()");
+    }
+
+    public GaoDePoi(String id){
+        System.out.println("GaoDePoi(String id)");
+    }
+
+    public GaoDePoi(String id,String name){
+        System.out.println("GaoDePoi(String id,String name)");
+    }
+
     public String getId() {
         return id;
     }
