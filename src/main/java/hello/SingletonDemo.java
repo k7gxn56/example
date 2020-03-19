@@ -24,9 +24,6 @@ public class SingletonDemo {
     }
 
     public static void main(String[] args){
-
-        ReentrantLock lock = new ReentrantLock();
-        lock.lock();
         for (int i = 0; i < 50;i++){
             new Thread(() -> {
                 SingletonDemo.geInstance();

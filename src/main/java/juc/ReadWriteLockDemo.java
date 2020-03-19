@@ -47,18 +47,61 @@ class MyCache{
  * 读写锁Demo
  */
 public class ReadWriteLockDemo {
-    public static void main(String[] args){
 
-        MyCache cache = new MyCache();
+    private static ReentrantReadWriteLock readWriteLock = new ReentrantReadWriteLock(false);
 
-        for (int i = 0;i < 5;i++){
-            final String k = String.valueOf(i);
-            new Thread(() -> { cache.set(k,k); },k).start();
+    private static void read(){
+        readWriteLock.readLock().lock();
+        String threadName = Thread.currentThread().getName();
+        try{
+            System.out.println(threadName+"获取到了读锁,开始执行读操作");
+            TimeUnit.MILLISECONDS.sleep(100);
+        }catch (Exception e){
+            System.out.println(threadName+" 发生了异常");
+            e.printStackTrace();
+        }finally {
+            readWriteLock.readLock().unlock();
+            System.out.println(threadName+"读锁被释放了");
         }
+    }
 
-        for (int i = 0;i < 5;i++){
-            final String k = String.valueOf(i);
-            new Thread(() -> { cache.get(k);},k).start();
+    private static void write(){
+        readWriteLock.writeLock().lock();
+        String threadName = Thread.currentThread().getName();
+        try{
+            System.out.println(threadName+"获取到了写锁,开始执行写操作");
+           // TimeUnit.MILLISECONDS.sleep(300);
+        }catch (Exception e){
+            System.out.println(threadName+" 发生了异常");
+            e.printStackTrace();
+        }finally {
+            readWriteLock.writeLock().unlock();
+            System.out.println(threadName+"写锁被释放了");
         }
+    }
+
+    public static void readWriteTest() throws InterruptedException{
+        for (int i = 0;i < 10;i++){
+            TimeUnit.MILLISECONDS.sleep(10);
+            if (i < 5) {
+                new Thread(() -> write(), "t" + i).start();
+            }else{
+                new Thread(() ->read(),"t"+i).start();
+            }
+        }
+    }
+    public static void main(String[] args) throws InterruptedException{
+        readWriteTest();
+//        MyCache cache = new MyCache();
+//
+//        for (int i = 0;i < 5;i++){
+//            final String k = String.valueOf(i);
+//            new Thread(() -> { cache.set(k,k); },k).start();
+//        }
+//
+//        for (int i = 0;i < 5;i++){
+//            final String k = String.valueOf(i);
+//            new Thread(() -> { cache.get(k);},k).start();
+//        }
     }
 }
