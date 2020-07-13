@@ -2,42 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ab90bd-b2c3-4e34-9e48-305e3167030c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/ZipAndUnzip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/DaemonThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/MyDelay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/Volatile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/VolatileInc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/A1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/A2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ClassUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_66.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/MyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/MongoDBJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/example.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/ReflectCreateObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/ReflectCreateObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/SingletonDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/juc/VolatileInc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/juc/VolatileInc.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +54,7 @@
     <property name="project.structure.side.proportion" value="0.33173078" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.VolatileInc">
+  <component name="RunManager" selected="Application.MyInvocationHandler">
     <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utils.B" />
       <module name="example" />
@@ -94,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaemonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.DaemonThread" />
+    <configuration name="MongoDBJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.MongoDBJDBC" />
       <module name="example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.*" />
+          <option name="PATTERN" value="utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyDelay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.MyDelay" />
+    <configuration name="MyInvocationHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello.MyInvocationHandler" />
       <module name="example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.*" />
+          <option name="PATTERN" value="hello.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyInvocationHandler" />
+        <item itemvalue="Application.MongoDBJDBC" />
         <item itemvalue="Application.VolatileInc" />
         <item itemvalue="Application.Volatile" />
         <item itemvalue="Application.B" />
-        <item itemvalue="Application.DaemonThread" />
-        <item itemvalue="Application.MyDelay" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +149,9 @@
       <workItem from="1589187047400" duration="735000" />
       <workItem from="1590054236748" duration="3526000" />
       <workItem from="1592271016977" duration="2637000" />
-      <workItem from="1592478774297" duration="278000" />
+      <workItem from="1592478774297" duration="467000" />
+      <workItem from="1594287523902" duration="2372000" />
+      <workItem from="1594621406095" duration="1637000" />
     </task>
     <servers />
   </component>
@@ -183,61 +159,49 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585299773113">
+    <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1594621502304">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1036@0.0.1920.1036" timestamp="1585299773113" />
-    <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1592272760189">
-      <screen x="0" y="0" width="1920" height="1036" />
-    </state>
-    <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1036@0.0.1920.1036" timestamp="1592272760189" />
-    <state x="811" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585303146157">
-      <screen x="0" y="0" width="1920" height="1036" />
-    </state>
-    <state x="811" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1036@0.0.1920.1036" timestamp="1585303146157" />
+    <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1036@0.0.1920.1036" timestamp="1594621502304" />
     <state x="853" y="275" key="FileChooserDialogImpl" timestamp="1590060364034">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="853" y="275" key="FileChooserDialogImpl/0.0.1920.1036@0.0.1920.1036" timestamp="1590060364034" />
-    <state width="1567" height="365" key="GridCell.Tab.0.bottom" timestamp="1592273745555">
+    <state width="1876" height="337" key="GridCell.Tab.0.bottom" timestamp="1594622444566">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1567" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1036@0.0.1920.1036" timestamp="1592273745555" />
-    <state width="1567" height="365" key="GridCell.Tab.0.center" timestamp="1592273745554">
+    <state width="1876" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1036@0.0.1920.1036" timestamp="1594622444566" />
+    <state width="1876" height="337" key="GridCell.Tab.0.center" timestamp="1594622444566">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1567" height="365" key="GridCell.Tab.0.center/0.0.1920.1036@0.0.1920.1036" timestamp="1592273745554" />
-    <state width="1567" height="365" key="GridCell.Tab.0.left" timestamp="1592273745554">
+    <state width="1876" height="337" key="GridCell.Tab.0.center/0.0.1920.1036@0.0.1920.1036" timestamp="1594622444566" />
+    <state width="1876" height="337" key="GridCell.Tab.0.left" timestamp="1594622444566">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1567" height="365" key="GridCell.Tab.0.left/0.0.1920.1036@0.0.1920.1036" timestamp="1592273745554" />
-    <state width="1567" height="365" key="GridCell.Tab.0.right" timestamp="1592273745555">
+    <state width="1876" height="337" key="GridCell.Tab.0.left/0.0.1920.1036@0.0.1920.1036" timestamp="1594622444566" />
+    <state width="1876" height="337" key="GridCell.Tab.0.right" timestamp="1594622444566">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1567" height="365" key="GridCell.Tab.0.right/0.0.1920.1036@0.0.1920.1036" timestamp="1592273745555" />
-    <state width="1567" height="365" key="GridCell.Tab.1.bottom" timestamp="1592273745555">
+    <state width="1876" height="337" key="GridCell.Tab.0.right/0.0.1920.1036@0.0.1920.1036" timestamp="1594622444566" />
+    <state width="1876" height="337" key="GridCell.Tab.1.bottom" timestamp="1594622444566">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1567" height="365" key="GridCell.Tab.1.bottom/0.0.1920.1036@0.0.1920.1036" timestamp="1592273745555" />
-    <state width="1567" height="365" key="GridCell.Tab.1.center" timestamp="1592273745555">
+    <state width="1876" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1036@0.0.1920.1036" timestamp="1594622444566" />
+    <state width="1876" height="337" key="GridCell.Tab.1.center" timestamp="1594622444566">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1567" height="365" key="GridCell.Tab.1.center/0.0.1920.1036@0.0.1920.1036" timestamp="1592273745555" />
-    <state width="1567" height="365" key="GridCell.Tab.1.left" timestamp="1592273745555">
+    <state width="1876" height="337" key="GridCell.Tab.1.center/0.0.1920.1036@0.0.1920.1036" timestamp="1594622444566" />
+    <state width="1876" height="337" key="GridCell.Tab.1.left" timestamp="1594622444566">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1567" height="365" key="GridCell.Tab.1.left/0.0.1920.1036@0.0.1920.1036" timestamp="1592273745555" />
-    <state width="1567" height="365" key="GridCell.Tab.1.right" timestamp="1592273745555">
+    <state width="1876" height="337" key="GridCell.Tab.1.left/0.0.1920.1036@0.0.1920.1036" timestamp="1594622444566" />
+    <state width="1876" height="337" key="GridCell.Tab.1.right" timestamp="1594622444566">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1567" height="365" key="GridCell.Tab.1.right/0.0.1920.1036@0.0.1920.1036" timestamp="1592273745555" />
+    <state width="1876" height="337" key="GridCell.Tab.1.right/0.0.1920.1036@0.0.1920.1036" timestamp="1594622444566" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1590055348553">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1590055348553" />
-    <state x="652" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585319879847">
-      <screen x="0" y="0" width="1920" height="1036" />
-    </state>
-    <state x="652" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1036@0.0.1920.1036" timestamp="1585319879847" />
   </component>
 </project>
